@@ -19,7 +19,7 @@ param(
     [string] $SecretName = "bitbucket",
 
     # Name of CSV Path to retrieve
-    [string] $csvPath = "./repos.csv",
+    [string] $csvPath = "./Repos.csv",
 
     # Boolean indicating if we should allow empty checksums. Default to true to match previous artifact functionality despite security
     [bool] $AllowEmptyChecksums = $true,
