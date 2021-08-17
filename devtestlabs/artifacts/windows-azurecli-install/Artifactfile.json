@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Install Azure Cli",
+    "publisher": "Microsoft",
+    "description": "Installs the Azure Cli",
+    "tags": [
+        "Windows",
+        "Azure CLI"
+    ],
+    "iconUri": "https://community.chocolatey.org/content/packageimages/sql-server-management-studio.15.0.18386.0.png",
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./Artifact-Main.ps1 -Packages ''', 'azure-cli', '''\"')]"
+    }
+}
